@@ -1,0 +1,10 @@
+name: CourseTestmonials
+form: $/diveramkt/landingpage/models/coursetestmonial/fields.yaml
+modelClass: Diveramkt\LandingPage\Models\CourseTestmonial
+defaultRedirect: diveramkt/landingpage/coursetestmonials
+create:
+    redirect: 'diveramkt/landingpage/coursetestmonials/update/:id'
+    redirectClose: diveramkt/landingpage/coursetestmonials
+update:
+    redirect: diveramkt/landingpage/coursetestmonials
+    redirectClose: diveramkt/landingpage/coursetestmonials

@@ -1,0 +1,4 @@
+title: CoursesNaMidia
+modelClass: Diveramkt\LandingPage\Models\CourseNaMidia
+toolbar:
+    buttons: reorder_toolbar

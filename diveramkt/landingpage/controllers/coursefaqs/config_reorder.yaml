@@ -1,0 +1,4 @@
+title: CourseFAQs
+modelClass: Diveramkt\LandingPage\Models\CourseFAQ
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Courses
+form: $/diveramkt/landingpage/models/course/fields.yaml
+modelClass: Diveramkt\LandingPage\Models\Course
+defaultRedirect: diveramkt/landingpage/courses
+create:
+    redirect: 'diveramkt/landingpage/courses/update/:id'
+    redirectClose: diveramkt/landingpage/courses
+update:
+    redirect: diveramkt/landingpage/courses
+    redirectClose: diveramkt/landingpage/courses

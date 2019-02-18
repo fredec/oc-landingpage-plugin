@@ -1,0 +1,10 @@
+name: EbookItem
+form: $/diveramkt/landingpage/models/ebookitem/fields.yaml
+modelClass: Diveramkt\LandingPage\Models\EbookItem
+defaultRedirect: diveramkt/landingpage/ebookitem
+create:
+    redirect: 'diveramkt/landingpage/ebookitem/update/:id'
+    redirectClose: diveramkt/landingpage/ebookitem
+update:
+    redirect: diveramkt/landingpage/ebookitem
+    redirectClose: diveramkt/landingpage/ebookitem

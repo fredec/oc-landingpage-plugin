@@ -1,0 +1,11 @@
+columns:
+    question:
+        label: 'diveramkt.landingpage::lang.course_faq.question'
+        type: text
+        searchable: true
+        sortable: true
+    answer:
+        label: 'diveramkt.landingpage::lang.course_faq.answer'
+        type: text
+        searchable: true
+        sortable: true

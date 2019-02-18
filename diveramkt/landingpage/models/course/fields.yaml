@@ -1,0 +1,294 @@
+fields:
+    course_enabled:
+        label: Habilitado
+        span: full
+        type: switch
+    course_opened:
+        label: 'diveramkt.landingpage::lang.courses.course_opened'
+        span: auto
+        disabled: 0
+        type: switch
+        tab: 'diveramkt.landingpage::lang.courses.payment'
+    external_course:
+        label: 'Curso em ferramenta externa'
+        span: auto
+        required: 0
+        type: switch
+tabs:
+    fields:
+        course_name:
+            label: 'diveramkt.landingpage::lang.courses.couse_name'
+            span: full
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.course'
+        slug:
+            label: Slug
+            span: full
+            required: 1
+            preset:
+                field: course_name
+                type: slug
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.course'
+        blog_description:
+            label: 'diveramkt.landingpage::lang.courses.blog_description'
+            size: small
+            span: left
+            required: 1
+            type: textarea
+            tab: 'diveramkt.landingpage::lang.courses.course'
+        blog_img:
+            label: 'diveramkt.landingpage::lang.courses.blog_img'
+            mode: image
+            span: right
+            required: 1
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.courses.course'
+        video_title:
+            label: 'diveramkt.landingpage::lang.courses.video_title'
+            span: left
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.course'
+        video:
+            label: 'diveramkt.landingpage::lang.courses.video'
+            size: tiny
+            span: left
+            type: textarea
+            tab: 'diveramkt.landingpage::lang.courses.course'
+        course_link:
+            label: 'diveramkt.landingpage::lang.courses.course_link'
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.course'
+        logo:
+            label: 'diveramkt.landingpage::lang.courses.logo'
+            mode: image
+            span: auto
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.courses.landing_page'
+        main_color:
+            label: 'diveramkt.landingpage::lang.courses.main_color'
+            span: left
+            type: colorpicker
+            tab: 'diveramkt.landingpage::lang.courses.landing_page'
+        second_color:
+            label: 'diveramkt.landingpage::lang.courses.second_color'
+            span: right
+            type: colorpicker
+            tab: 'diveramkt.landingpage::lang.courses.landing_page'
+        header_title:
+            label: 'diveramkt.landingpage::lang.courses.header_title'
+            span: full
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.header'
+        header_description:
+            label: 'diveramkt.landingpage::lang.courses.header_description'
+            size: small
+            span: full
+            type: richeditor
+            tab: 'diveramkt.landingpage::lang.courses.header'
+        header_img:
+            label: 'diveramkt.landingpage::lang.courses.header_img'
+            mode: image
+            imageWidth: '1920'
+            span: auto
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.courses.header'
+        header_btn_text:
+            label: 'diveramkt.landingpage::lang.courses.header_btn_text'
+            span: auto
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.header'
+        call_to_action_title:
+            label: 'diveramkt.landingpage::lang.courses.call_to_action_title'
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.call_to_action'
+        call_to_action_description:
+            label: 'diveramkt.landingpage::lang.courses.call_to_action_description'
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.call_to_action'
+        call_to_action_btn:
+            label: 'diveramkt.landingpage::lang.courses.call_to_action_btn'
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.call_to_action'
+        payment_enabled:
+            label: 'diveramkt.landingpage::lang.courses.payment_enabled'
+            span: auto
+            default: 1
+            type: switch
+            tab: 'diveramkt.landingpage::lang.courses.payment'
+        course_payment_title:
+            label: 'diveramkt.landingpage::lang.courses.course_payment_title'
+            span: full
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.payment'
+        course_payment_description:
+            label: 'diveramkt.landingpage::lang.courses.course_payment_description'
+            size: large
+            span: left
+            required: 1
+            type: richeditor
+            tab: 'diveramkt.landingpage::lang.courses.payment'
+        course_payment_img:
+            label: 'diveramkt.landingpage::lang.courses.course_payment_img'
+            mode: image
+            span: right
+            required: 1
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.courses.payment'
+        course_closed_message:
+            label: 'diveramkt.landingpage::lang.courses.course_closed_message'
+            span: right
+            type: text
+            comment: 'diveramkt.landingpage::lang.courses.course_closed_message_comment'
+            tab: 'diveramkt.landingpage::lang.courses.payment'
+        course_price1:
+            label: 'diveramkt.landingpage::lang.courses.course_price1'
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.payment'
+        course_price2:
+            label: 'diveramkt.landingpage::lang.courses.course_price2'
+            span: left
+            hidden: 0
+            required: 0
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.payment'
+        testmonials_enabled:
+            label: 'diveramkt.landingpage::lang.courses.testmonials_enabled'
+            span: auto
+            default: 1
+            type: switch
+            tab: 'diveramkt.landingpage::lang.courses.testmonials'
+        testmonials_title:
+            label: 'diveramkt.landingpage::lang.courses.testmonials_title'
+            span: full
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.testmonials'
+        testmonials_subtitle:
+            label: 'diveramkt.landingpage::lang.courses.testmonials_subtitle'
+            span: full
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.testmonials'
+        testmonials_style:
+            label: 'diveramkt.landingpage::lang.courses.testmonials_style'
+            options:
+                traditional: 'Foto + Texto'
+                whatsapp: 'Prints Whatsapp'
+            span: auto
+            required: 1
+            type: dropdown
+            tab: 'diveramkt.landingpage::lang.courses.testmonials'
+        testmonials:
+            span: left
+            path: ~/plugins/diveramkt/landingpage/controllers/courses/_options_testmonials.htm
+            type: partial
+            tab: 'diveramkt.landingpage::lang.courses.testmonials'
+        description_enabled:
+            label: 'diveramkt.landingpage::lang.courses.description_enabled'
+            span: auto
+            default: 1
+            type: switch
+            tab: 'diveramkt.landingpage::lang.courses.description'
+        course_description:
+            label: 'diveramkt.landingpage::lang.courses.description'
+            span: full
+            size: giant
+            type: richeditor
+            tab: 'diveramkt.landingpage::lang.courses.description'
+        faq_enabled:
+            label: 'diveramkt.landingpage::lang.courses.faq_enabled'
+            span: auto
+            default: 0
+            type: switch
+            tab: 'diveramkt.landingpage::lang.course_faq.faq'
+        faq_title:
+            label: 'diveramkt.landingpage::lang.courses.faq_title'
+            span: full
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.course_faq.faq'
+        faq_subtitle:
+            label: 'diveramkt.landingpage::lang.courses.faq_subtitle'
+            span: full
+            required: 0
+            type: text
+            tab: 'diveramkt.landingpage::lang.course_faq.faq'
+        faqs:
+            span: auto
+            path: ~/plugins/diveramkt/landingpage/controllers/courses/_options_faq.htm
+            type: partial
+            tab: 'diveramkt.landingpage::lang.course_faq.faq'
+        contact_enabled:
+            label: 'diveramkt.landingpage::lang.courses.contact_enabled'
+            span: auto
+            default: 1
+            type: switch
+            tab: 'diveramkt.landingpage::lang.courses.contact'
+        contact_title:
+            label: 'diveramkt.landingpage::lang.courses.contact_title'
+            span: full
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.contact'
+        contact_subtitle:
+            label: 'diveramkt.landingpage::lang.courses.contact_subtitle'
+            span: full
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.contact'
+        contact_phone:
+            label: 'diveramkt.landingpage::lang.courses.contact_phone'
+            span: left
+            required: 0
+            type: text
+            comment: 'diveramkt.landingpage::lang.courses.contact_phone_comment'
+            tab: 'diveramkt.landingpage::lang.courses.contact'
+        contact_whatsapp:
+            label: 'diveramkt.landingpage::lang.courses.contact_whatsapp'
+            span: right
+            type: text
+            comment: 'diveramkt.landingpage::lang.courses.contact_whatsapp_comment'
+            tab: 'diveramkt.landingpage::lang.courses.contact'
+        contact_email:
+            label: 'diveramkt.landingpage::lang.courses.contact_email'
+            span: auto
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.contact'
+        contact_whatsapp_numbers:
+            label: 'diveramkt.landingpage::lang.courses.contact_whatsapp_numbers'
+            span: right
+            type: text
+            comment: 'diveramkt.landingpage::lang.courses.contact_whatsapp_numbers_comment'
+            tab: 'diveramkt.landingpage::lang.courses.contact'
+        news_enabled:
+            label: 'diveramkt.landingpage::lang.courses.news_enabled'
+            span: auto
+            type: switch
+            tab: 'diveramkt.landingpage::lang.courses.news'
+        news_title:
+            label: 'diveramkt.landingpage::lang.courses.news_title'
+            span: full
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.news'
+        news_subtitle:
+            label: 'diveramkt.landingpage::lang.courses.news_subtitle'
+            span: full
+            type: text
+            tab: 'diveramkt.landingpage::lang.courses.news'
+        news:
+            span: auto
+            path: ~/plugins/diveramkt/landingpage/controllers/courses/_options_news.htm
+            type: partial
+            tab: 'diveramkt.landingpage::lang.courses.news'

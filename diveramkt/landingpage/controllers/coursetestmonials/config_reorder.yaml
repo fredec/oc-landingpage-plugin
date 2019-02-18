@@ -1,0 +1,4 @@
+title: CourseTestmonials
+modelClass: Diveramkt\LandingPage\Models\CourseTestmonial
+toolbar:
+    buttons: reorder_toolbar

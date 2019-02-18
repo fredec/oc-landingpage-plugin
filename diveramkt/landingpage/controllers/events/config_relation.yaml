@@ -1,0 +1,8 @@
+lectures:
+    label: 'diveramkt.landingpage::lang.landingpageevents.lectures'
+    manage:
+        form: $/diveramkt/landingpage/models/eventlecture/relation_fields.yaml
+        list: $/diveramkt/landingpage/models/eventlecture/relation_columns.yaml
+    view:
+        list: $/diveramkt/landingpage/models/eventlecture/relation_columns.yaml
+        toolbarButtons: create|delete

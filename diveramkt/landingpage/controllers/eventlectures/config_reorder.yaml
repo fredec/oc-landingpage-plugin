@@ -1,0 +1,4 @@
+title: EventLectures
+modelClass: Diveramkt\LandingPage\Models\EventLecture
+toolbar:
+    buttons: reorder_toolbar

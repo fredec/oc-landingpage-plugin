@@ -1,0 +1,4 @@
+title: EbookItem
+modelClass: Diveramkt\LandingPage\Models\EbookItem
+toolbar:
+    buttons: reorder_toolbar

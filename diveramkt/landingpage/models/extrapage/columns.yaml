@@ -1,0 +1,12 @@
+columns:
+    category:
+        label: 'diveramkt.landingpage::lang.extra_pages.category'
+        type: text
+        searchable: true
+        sortable: true
+    contents_count:
+        label: 'diveramkt.landingpage::lang.extra_pages.contents_count'
+        type: number
+        sortable: true
+        relation: contents_count
+        valueFrom: count

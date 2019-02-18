@@ -1,0 +1,4 @@
+title: Courses
+modelClass: Diveramkt\LandingPage\Models\Course
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,68 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table diveramkt_landingpage_ebooks'
+    - builder_table_create_diveramkt_landingpage_ebooks.php
+1.0.10:
+    - 'Created table diveramkt_landingpage_events'
+    - builder_table_create_diveramkt_landingpage_events.php
+1.0.12:
+    - 'Created table diveramkt_landingpage_events_lectures'
+    - builder_table_create_diveramkt_landingpage_events_lectures.php
+1.0.13:
+    - 'Updated table diveramkt_landingpage_events_lectures'
+    - builder_table_update_diveramkt_landingpage_events_lectures.php
+1.0.23:
+    - 'Created table diveramkt_landingpage_courses'
+    - builder_table_create_diveramkt_landingpage_courses.php
+1.0.24:
+    - 'Updated table diveramkt_landingpage_courses'
+    - builder_table_update_diveramkt_landingpage_courses.php
+1.0.33:
+    - 'Created table diveramkt_landingpage_courses_testmonials'
+    - builder_table_create_diveramkt_landingpage_courses_testmonials.php
+1.0.34:
+    - 'Updated table diveramkt_landingpage_courses_testmonials'
+    - builder_table_update_diveramkt_landingpage_courses_testmonials.php
+1.0.44:
+    - 'Created table diveramkt_landingpage_courses_faq'
+    - builder_table_create_diveramkt_landingpage_courses_faq.php
+1.0.52:
+    - 'Created table diveramkt_landingpage_courses_namidia'
+    - builder_table_create_diveramkt_landingpage_courses_namidia.php
+1.0.60:
+    - 'Created table diveramkt_landingpage_extra_pages'
+    - builder_table_create_diveramkt_landingpage_extra_pages.php
+1.0.61:
+    - 'Updated table diveramkt_landingpage_extra_pages'
+    - builder_table_update_diveramkt_landingpage_extra_pages.php
+1.0.62:
+    - 'Created table diveramkt_landingpage_extra_pages_contents'
+    - builder_table_create_diveramkt_landingpage_extra_pages_contents.php
+1.0.63:
+    - 'Updated table diveramkt_landingpage_ebooks'
+    - builder_table_update_diveramkt_landingpage_ebooks.php
+1.0.64:
+    - 'Updated table diveramkt_landingpage_ebooks'
+    - builder_table_update_diveramkt_landingpage_ebooks2.php
+1.0.65:
+    - 'Created table diveramkt_landingpage_ebooks_items'
+    - builder_table_create_diveramkt_landingpage_ebooks_items.php
+1.0.66:
+    - 'Updated table diveramkt_landingpage_events'
+    - builder_table_update_diveramkt_landingpage_events.php
+1.0.67:
+    - 'Updated table diveramkt_landingpage_events'
+    - builder_table_update_diveramkt_landingpage_events_2.php
+1.0.68:
+    - 'Updated table diveramkt_landingpage_events'
+    - builder_table_update_diveramkt_landingpage_events_3.php
+1.0.69:
+    - 'Updated table diveramkt_landingpage_events'
+    - builder_table_update_diveramkt_landingpage_events_4.php
+1.0.70:
+    - 'Updated table diveramkt_landingpage_events'
+    - builder_table_update_diveramkt_landingpage_events_5.php
+1.0.71:
+    - 'Updated table diveramkt_landingpage_events'
+    - builder_table_update_diveramkt_landingpage_events_6.php

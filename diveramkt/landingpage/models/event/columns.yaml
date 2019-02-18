@@ -1,0 +1,23 @@
+columns:
+    title:
+        label: 'diveramkt.landingpage::lang.landing_page.title'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'diveramkt.landingpage::lang.landing_page.created_at'
+        type: date
+        searchable: true
+        sortable: true
+    contents_count:
+        label: 'diveramkt.landingpage::lang.landingpageevents.lectures_count'
+        type: number
+        searchable: false
+        sortable: true
+        relation: lectures_count
+        valueFrom: count
+    enabled:
+        label: 'diveramkt.landingpage::lang.landingpageevents.enabled'
+        type: switch
+        searchable: true
+        sortable: true

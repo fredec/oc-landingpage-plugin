@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.title'
+        type: text
+        searchable: true
+        sortable: true
+    enabled:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.enabled'
+        type: switch
+        searchable: true
+        sortable: true

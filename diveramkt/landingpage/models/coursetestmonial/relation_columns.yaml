@@ -1,0 +1,11 @@
+columns:
+    name:
+        label: 'diveramkt.landingpage::lang.course_testmonials.name'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'diveramkt.landingpage::lang.course_testmonials.description'
+        type: text
+        searchable: true
+        sortable: true

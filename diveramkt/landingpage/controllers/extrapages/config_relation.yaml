@@ -1,0 +1,8 @@
+contents_backend:
+    label: 'diveramkt.landingpage::lang.extra_pages_contents.extra_pages_contents'
+    manage:
+        form: $/diveramkt/landingpage/models/extrapagescontent/relation_fields.yaml
+        list: $/diveramkt/landingpage/models/extrapagescontent/relation_columns.yaml
+    view:
+        list: $/diveramkt/landingpage/models/extrapagescontent/relation_columns.yaml
+        toolbarButtons: create|delete

@@ -1,0 +1,62 @@
+plugin:
+    name: 'diveramkt.landingpage::lang.plugin.name'
+    description: 'diveramkt.landingpage::lang.plugin.description'
+    author: DiveraMkt
+    icon: oc-icon-pagelines
+    homepage: ''
+permissions:
+    manage_pages:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'diveramkt.landingpage::lang.landing_page.manage_pages'
+    manage_events:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'Manage Events'
+    manage_events_lectures:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'Manage Event Lectures'
+    manage_ebooks:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'diveramkt.landingpage::lang.ebooks.manage_ebooks'
+    manage_courses:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'diveramkt.landingpage::lang.courses.manage_courses'
+    manage_course_testmonials:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'diveramkt.landingpage::lang.course_testmonials.manage_testmonials'
+    manage_course_faq:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'diveramkt.landingpage::lang.course_faq.manage_course_faq'
+    manage_course_namidia:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'diveramkt.landingpage::lang.course_namidia.manage_namidia'
+    manage_extra_pages:
+        tab: 'diveramkt.landingpage::lang.plugin.name'
+        label: 'diveramkt.landingpage::lang.extra_pages.manage_extra_pages'
+    manage_extra_pages_contents:
+        tab: 'diveramkt.landingpage::lang.plugin.nameplugin'
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.manage_extra_pages_contents'
+    manage_ebooks_items:
+        tab: 'diveramkt.landingpage::lang.plugin.nameplugin'
+        label: 'diveramkt.landingpage::lang.landingpages.manage_ebooks_items'
+navigation:
+    main-menu-landingpages:
+        label: 'diveramkt.landingpage::lang.plugin.name'
+        url: diveramkt/landingpage/ebooks
+        icon: icon-pagelines
+        sideMenu:
+            side-menu-ebooks:
+                label: Ebooks
+                url: diveramkt/landingpage/ebooks
+                icon: icon-book
+            side-menu-courses:
+                label: 'diveramkt.landingpage::lang.courses.courses'
+                url: diveramkt/landingpage/courses
+                icon: icon-university
+            side-menu-events:
+                label: 'diveramkt.landingpage::lang.landingpage_events'
+                url: diveramkt/landingpage/events
+                icon: icon-microphone
+            side-menu-extra-pages:
+                label: 'diveramkt.landingpage::lang.extra_pages.extra_pages'
+                url: diveramkt/landingpage/extrapages
+                icon: icon-sitemap

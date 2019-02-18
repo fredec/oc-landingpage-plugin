@@ -1,0 +1,18 @@
+columns:
+    name:
+        label: 'diveramkt.landingpage::lang.course_testmonials.name'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'diveramkt.landingpage::lang.course_testmonials.description'
+        type: text
+        searchable: true
+        sortable: true
+    course:
+        label: 'diveramkt.landingpage::lang.courses.course'
+        type: text
+        searchable: true
+        sortable: true
+        select: course_name
+        relation: course

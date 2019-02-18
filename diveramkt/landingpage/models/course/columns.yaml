@@ -1,0 +1,16 @@
+columns:
+    course_name:
+        label: 'diveramkt.landingpage::lang.courses.couse_name'
+        type: text
+        searchable: true
+        sortable: true
+    course_price1:
+        label: 'diveramkt.landingpage::lang.courses.course_price'
+        type: text
+        searchable: true
+        sortable: true
+    course_enabled:
+        label: 'diveramkt.landingpage::lang.courses.course_enabled'
+        type: switch
+        searchable: true
+        sortable: true

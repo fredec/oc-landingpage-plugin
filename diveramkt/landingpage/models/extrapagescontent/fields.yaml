@@ -1,0 +1,49 @@
+fields:
+    enabled:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.enabled'
+        span: left
+        type: switch
+    title:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.title'
+        span: full
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    category:
+        label: 'diveramkt.landingpage::lang.extra_pages.category'
+        nameFrom: category
+        descriptionFrom: description
+        span: right
+        required: 1
+        type: relation
+    description:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.description'
+        size: huge
+        span: left
+        required: 0
+        type: textarea
+    main_image:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.main_image'
+        mode: image
+        imageWidth: '400'
+        span: auto
+        required: 1
+        type: mediafinder
+    external_link:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.external_link'
+        span: full
+        type: text
+        comment: 'Se esse campo estiver preenchido o usuário será levado para esse link ao clicar no conteúdo.'
+    content:
+        label: 'diveramkt.landingpage::lang.extra_pages_contents.content'
+        size: giant
+        span: full
+        type: richeditor
+        comment: 'Esse conteúdo apenas será exibido se o campo Link Externo estiver vazio.'

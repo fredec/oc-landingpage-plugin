@@ -1,0 +1,8 @@
+items:
+    label: 'diveramkt.landingpage::lang.ebooks_items.items'
+    manage:
+        form: $/diveramkt/landingpage/models/ebookitem/relation_fields.yaml
+        list: $/diveramkt/landingpage/models/ebookitem/relation_columns.yaml
+    view:
+        list: $/diveramkt/landingpage/models/ebookitem/relation_columns.yaml
+        toolbarButtons: create|delete

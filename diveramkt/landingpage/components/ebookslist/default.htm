@@ -1,0 +1,7 @@
+{% set ebooks = __SELF__.ebooks %}
+
+<ul>
+	{% for ebook in ebooks %}
+	<li>{{ ebooks.title }}</li>
+	{% endfor %}
+</ul>

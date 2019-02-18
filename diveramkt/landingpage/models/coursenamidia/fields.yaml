@@ -1,0 +1,29 @@
+fields:
+    course:
+        label: 'diveramkt.landingpage::lang.course_namidia.course'
+        nameFrom: course_name
+        descriptionFrom: description
+        span: full
+        required: 1
+        type: relation
+    title:
+        label: 'diveramkt.landingpage::lang.course_namidia.title'
+        span: left
+        required: 1
+        type: text
+    logo_img:
+        label: 'diveramkt.landingpage::lang.course_namidia.logo'
+        mode: image
+        span: right
+        required: 1
+        type: mediafinder
+    description:
+        label: 'diveramkt.landingpage::lang.course_namidia.description'
+        span: left
+        required: 0
+        type: text
+    link:
+        label: 'diveramkt.landingpage::lang.course_namidia.link'
+        span: left
+        required: 1
+        type: text

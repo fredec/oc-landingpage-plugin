@@ -1,0 +1,10 @@
+name: ExtraPagesContents
+form: $/diveramkt/landingpage/models/extrapagescontent/fields.yaml
+modelClass: Diveramkt\LandingPage\Models\ExtraPagesContent
+defaultRedirect: diveramkt/landingpage/extrapagescontents
+create:
+    redirect: 'diveramkt/landingpage/extrapagescontents/update/:id'
+    redirectClose: diveramkt/landingpage/extrapagescontents
+update:
+    redirect: diveramkt/landingpage/extrapagescontents
+    redirectClose: diveramkt/landingpage/extrapagescontents

@@ -1,0 +1,13 @@
+columns:
+    title:
+        label: title
+        type: text
+        searchable: true
+        sortable: true
+    course:
+        label: course
+        type: text
+        searchable: true
+        sortable: true
+        select: course_name
+        relation: course

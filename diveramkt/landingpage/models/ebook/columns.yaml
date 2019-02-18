@@ -1,0 +1,16 @@
+columns:
+    title:
+        label: 'diveramkt.landingpage::lang.ebooks.title'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'diveramkt.landingpage::lang.ebook.created_at'
+        type: date
+        searchable: true
+        sortable: true
+    ebook_enabled:
+        label: Habilitado
+        type: switch
+        searchable: true
+        sortable: true

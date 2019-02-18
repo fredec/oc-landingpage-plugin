@@ -1,0 +1,274 @@
+tabs:
+    fields:
+        title:
+            label: 'diveramkt.landingpage::lang.landing_page.title'
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        slug:
+            label: Slug
+            span: right
+            required: 1
+            preset:
+                field: title
+                type: slug
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        subtitle:
+            label: Subtitle
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        description:
+            label: 'diveramkt.landingpage::lang.landingpageevents.description_closed'
+            size: large
+            span: auto
+            type: textarea
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        video_embed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.embed_video'
+            size: small
+            language: php
+            span: auto
+            type: codeeditor
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        date:
+            label: 'diveramkt.landingpage::lang.landingpageevents.date'
+            mode: date
+            span: left
+            type: datepicker
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        time:
+            label: 'diveramkt.landingpage::lang.landingpageevents.time'
+            mode: time
+            span: right
+            type: datepicker
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        footer_title:
+            label: 'diveramkt.landingpage::lang.landingpageevents.footer_title'
+            span: auto
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        footer_description:
+            label: 'diveramkt.landingpage::lang.landingpageevents.footer_description'
+            span: auto
+            size: small
+            type: textarea
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        field_comment:
+            label: 'diveramkt.landingpage::lang.landingpageevents.field_comment'
+            span: left
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data'
+        layout:
+            label: 'diveramkt.landingpage::lang.landingpageevents.layout'
+            options:
+                1: 'Evento1: para evento com várias palestras'
+                2: 'Evento2: Webinar'
+            span: left
+            type: dropdown
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        image:
+            label: 'diveramkt.landingpage::lang.landingpageevents.image'
+            mode: image
+            imageWidth: '1920'
+            span: right
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        logo:
+            label: 'diveramkt.landingpage::lang.landingpageevents.logo'
+            mode: image
+            imageWidth: '400'
+            span: left
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        bgcolor1:
+            label: 'diveramkt.landingpage::lang.landingpageevents.bgcolor1'
+            span: right
+            type: colorpicker
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        favicon:
+            label: 'diveramkt.landingpage::lang.landingpageevents.favicon'
+            mode: image
+            imageWidth: '64'
+            span: auto
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        subheader_image1:
+            label: 'diveramkt.landingpage::lang.landingpageevents.subheader_image1'
+            mode: image
+            span: left
+            imageWidth: '600'
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        subheader_image2:
+            label: 'diveramkt.landingpage::lang.landingpageevents.subheader_image2'
+            mode: image
+            imageWidth: '600'
+            span: right
+            type: mediafinder
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        subheader_image1_link:
+            label: 'diveramkt.landingpage::lang.landingpageevents.subheader_image1_link'
+            span: left
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        subheader_image2_link:
+            label: 'diveramkt.landingpage::lang.landingpageevents.subheader_image2_link'
+            span: right
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        subheader_image1_title:
+            label: 'diveramkt.landingpage::lang.landingpageevents_lecture.subheader_image1_title'
+            span: auto
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        subheader_image2_title:
+            label: 'diveramkt.landingpage::lang.landingpageevents_lecture.subheader_image2_title'
+            span: right
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.page_layout'
+        email_title:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_title'
+            span: full
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        email_first_paragraph:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_first_paragraph'
+            size: large
+            span: full
+            required: 1
+            type: richeditor
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        email_link:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_link_url'
+            span: right
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        email_link_text:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_link'
+            span: left
+            required: 0
+            type: text
+            comment: 'diveramkt.landingpage::lang.landingpageevents.email_link_comment'
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        email_content:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_content'
+            size: huge
+            span: full
+            required: 0
+            stretch: 0
+            type: richeditor
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        email_btn_link:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_btn_link'
+            span: right
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        email_btn:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_btn'
+            span: auto
+            required: 0
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        email_footer:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_footer'
+            span: full
+            required: 0
+            type: text
+            comment: 'diveramkt.landingpage::lang.landingpageevents.email_footer_comment'
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email'
+        title_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.title_closed'
+            span: auto
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data_closed'
+        subtitle_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.subtitle_closed'
+            span: auto
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data_closed'
+        description_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.description_closed'
+            size: small
+            span: left
+            type: textarea
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data_closed'
+        observation_closed:
+            label: Observação
+            span: auto
+            type: text
+            comment: 'Exibido no topo, no lugar da contagem de início do evento.'
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data_closed'
+        footer_title_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.footer_title_closed'
+            span: auto
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data_closed'
+        footer_description_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.footer_description_closed'
+            span: auto
+            size: small
+            type: textarea
+            tab: 'diveramkt.landingpage::lang.landingpageevents.event_data_closed'
+        email_title_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_title'
+            span: full
+            required: 1
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        email_first_paragraph_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_first_paragraph'
+            size: large
+            span: full
+            required: 1
+            type: richeditor
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        email_link_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_link_url'
+            span: right
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        email_link_text_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_link'
+            span: left
+            required: 0
+            type: text
+            comment: 'diveramkt.landingpage::lang.landingpageevents.email_link_comment'
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        email_content_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_content'
+            size: huge
+            span: full
+            required: 0
+            stretch: 0
+            type: richeditor
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        email_btn_link_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_btn_link'
+            span: right
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        email_btn_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_btn'
+            span: auto
+            required: 0
+            type: text
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        email_footer_closed:
+            label: 'diveramkt.landingpage::lang.landingpageevents.email_footer'
+            span: full
+            required: 0
+            type: text
+            comment: 'diveramkt.landingpage::lang.landingpageevents.email_footer_comment'
+            tab: 'diveramkt.landingpage::lang.landingpageevents.data_confirmation_email_closed'
+        lectures:
+            span: auto
+            path: ~/plugins/diveramkt/landingpage/controllers/events/_options_lectures.htm
+            type: partial
+            tab: 'diveramkt.landingpage::lang.landingpageevents.lectures'

@@ -1,0 +1,23 @@
+columns:
+    title:
+        label: 'diveramkt.landingpage::lang.landing_page.title'
+        type: text
+        searchable: true
+        sortable: true
+    event:
+        label: 'diveramkt.landingpage::lang.landing_page.description'
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: event
+    date:
+        label: Date
+        type: date
+        searchable: true
+        sortable: true
+    time:
+        label: Time
+        type: time
+        searchable: true
+        sortable: true

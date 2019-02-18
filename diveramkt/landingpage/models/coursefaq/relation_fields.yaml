@@ -1,0 +1,13 @@
+fields:
+    question:
+        label: 'diveramkt.landingpage::lang.course_faq.question'
+        size: ''
+        span: auto
+        required: 1
+        type: textarea
+    answer:
+        label: 'diveramkt.landingpage::lang.course_faq.answer'
+        size: ''
+        span: right
+        required: 1
+        type: textarea

@@ -1,0 +1,10 @@
+name: Events
+form: $/diveramkt/landingpage/models/event/fields.yaml
+modelClass: Diveramkt\LandingPage\Models\Event
+defaultRedirect: diveramkt/landingpage/events
+create:
+    redirect: 'diveramkt/landingpage/events/update/:id'
+    redirectClose: diveramkt/landingpage/events
+update:
+    redirect: diveramkt/landingpage/events
+    redirectClose: diveramkt/landingpage/events

@@ -1,0 +1,26 @@
+faqs:
+    label: 'diveramkt.landingpage::lang.course_faq.faq'
+    manage:
+        form: $/diveramkt/landingpage/models/coursefaq/relation_fields.yaml
+        list: $/diveramkt/landingpage/models/coursefaq/relation_columns.yaml
+    view:
+        list: $/diveramkt/landingpage/models/coursefaq/relation_columns.yaml
+        toolbarButtons: create|delete
+
+news:
+    label: 'diveramkt.landingpage::lang.course_namidia.namidia'
+    manage:
+        form: $/diveramkt/landingpage/models/coursenamidia/relation_fields.yaml
+        list: $/diveramkt/landingpage/models/coursenamidia/relation_columns.yaml
+    view:
+        list: $/diveramkt/landingpage/models/coursenamidia/relation_columns.yaml
+        toolbarButtons: create|delete
+
+testmonials:
+    label: 'diveramkt.landingpage::lang.course_testmonials.testmonials'
+    manage:
+        form: $/diveramkt/landingpage/models/coursetestmonial/relation_fields.yaml
+        list: $/diveramkt/landingpage/models/coursetestmonial/relation_columns.yaml
+    view:
+        list: $/diveramkt/landingpage/models/coursetestmonial/relation_columns.yaml
+        toolbarButtons: create|delete

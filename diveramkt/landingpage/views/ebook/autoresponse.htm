@@ -1,0 +1,39 @@
+<table>
+<tr>
+    <td colspan="4"> </td>
+</tr>
+<tr>
+    <td> </td>
+    <td> </td>
+    <td>
+        {{ data.email_first_paragraph|raw }}
+        
+        {% if data.file_to_download %}
+            <p><a href="{{ data.file_to_download }}" target="_blank">{{ data.email_link }}</a></p>
+        {% endif %}
+        
+        {% if data.email_content %}
+            {{ data.email_content|raw }}
+        {% endif %}
+    
+        {% if data.file_to_download %}
+            {% partial 'button' url=data.file_to_download body %}
+                {{ data.email_btn }}
+            {% endpartial %}
+        {% elseif data.email_btn_link %}
+            {% partial 'button' url=data.email_btn_link body %}
+                {{ data.email_btn }}
+            {% endpartial %}
+        {% endif %}
+        
+    </td>
+    <td> </td>
+</tr>
+<tr>
+    <td colspan="4">
+        {% if data.email_footer %}
+            <p>{{ data.email_footer }}</p>
+        {% endif %}
+    </td>
+</tr>
+</table>

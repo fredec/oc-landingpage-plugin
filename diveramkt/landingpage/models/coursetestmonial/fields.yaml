@@ -1,0 +1,30 @@
+fields:
+    course:
+        label: 'diveramkt.landingpage::lang.courses.course'
+        nameFrom: course_name
+        descriptionFrom: description
+        span: full
+        required: 1
+        type: relation
+    name:
+        label: 'diveramkt.landingpage::lang.course_testmonials.name'
+        span: left
+        required: 1
+        type: text
+    description:
+        label: 'diveramkt.landingpage::lang.course_testmonials.description'
+        span: right
+        required: 1
+        type: text
+    testmonial:
+        label: 'diveramkt.landingpage::lang.course_testmonials.testmonial'
+        size: huge
+        span: left
+        required: 1
+        type: richeditor
+    image:
+        label: 'diveramkt.landingpage::lang.course_testmonials.image'
+        mode: image
+        span: right
+        required: 1
+        type: mediafinder

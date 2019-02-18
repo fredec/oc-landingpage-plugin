@@ -1,0 +1,4 @@
+title: ExtraPages
+modelClass: Diveramkt\LandingPage\Models\ExtraPage
+toolbar:
+    buttons: reorder_toolbar

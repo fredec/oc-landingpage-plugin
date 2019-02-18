@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'diveramkt.landingpage::lang.ebooks_items.title'
+        type: text
+        searchable: true
+        sortable: true
+    order:
+        label: 'diveramkt.landingpage::lang.ebooks_items.order'
+        type: number
+        searchable: true
+        sortable: true
